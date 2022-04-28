@@ -40,9 +40,12 @@
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
-- A page showing a 404 error, scarecrow and a button to go bacak to the page before
-- Exiting and apealing
-- I have improved on my ability to build a responsive website
+- Where can I see your demo?
+  A page showing a 404 error, scarecrow and a button to go bacak to the page before
+- What was your experience?
+  Exiting and apealing
+- What have you learned/improved?
+  I have improved on my ability to build a responsive website
 - Everythinig gets better :)
 
 ### Built With
