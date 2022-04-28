@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 64px;
+  font-family: "Space Mono", monospace;
+}
+
+p {
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+}
+
+.error p {
+  position: absolute;
+  top: 3vw;
+  left: 3.5vw;
+  font-family: "Inconsolata", monospace;
+  font-size: 24px;
+}
+
+.flexbox {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 95vh;
+}
+
+.left {
+  width: fit-content;
+}
+
+.left .scarecrow {
+  background: url("images/Scarecrow.png");
+  background-position: center;
+  background-size: cover;
+  margin-left: 77px;
+  width: 539.22px;
+  height: 447.43px;
+}
+
+.right {
+  width: 588px;
+  margin: auto;
+}
+
+.right h1 {
+  margin-bottom: 3vh;
+  font-size: 64px;
+}
+
+.right p {
+  margin-bottom: 5vh;
+  width: 381px;
+  color: #4f4f4f;
+  font-size: 24px;
+}
+
+.right button {
+  background: #333333;
+  color: white;
+  padding: 24px 43px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+footer {
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #bdbdbd;
+  margin: 0 auto 1vh auto;
+  top: auto;
+  bottom: 1vh;
+}
+
+footer p {
+  width: fit-content;
+  margin: auto;
+  font-size: inherit;
+}
+
+footer a {
+  color: inherit;
+}
+
+@media screen and (max-width: 1253px) {
+  .flexbox {
+    height: fit-content;
+    row-gap: 7vh;
+  }
+  .left {
+    margin: 45px auto 0 auto;
+    align-self: center;
+    height: fit-content;
+  }
+  .left .scarecrow {
+    width: 286.83px;
+    height: 238px;
+    margin: 0;
+  }
+
+  .right {
+    width: 92.3vw;
+    margin: 0 auto 7vh auto;
+    align-self: flex-start;
+    height: fit-content;
+  }
+
+  .right h1 {
+    font-size: 48px;
+  }
+
+  .right p {
+    width: 90%;
+    font-size: 18px;
+    margin-bottom: 8vh;
+  }
+
+  footer {
+    position: absolute;
+    width: fit-content;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
