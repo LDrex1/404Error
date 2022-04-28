@@ -69,7 +69,7 @@ p {
   background: #333333;
   color: white;
   padding: 24px 43px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Space Mono", monospace;
   font-size: 14px;
   font-weight: 700;
 }
@@ -88,6 +88,7 @@ footer {
 footer p {
   width: fit-content;
   margin: auto;
+  font-family: inherit;
   font-size: inherit;
 }
 
