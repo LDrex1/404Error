@@ -12,11 +12,13 @@ body {
 h1 {
   font-size: 64px;
   font-family: "Space Mono", monospace;
+  letter-spacing: -0.035em;
 }
 
 p {
   font-family: "Space Mono", monospace;
   font-size: 24px;
+  letter-spacing: -0.035em;
 }
 
 .error p {
@@ -25,14 +27,15 @@ p {
   left: 3.5vw;
   font-family: "Inconsolata", monospace;
   font-size: 24px;
+  letter-spacing: -0.08%;
 }
 
 .flexbox {
   position: relative;
+  height: 95vh;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  height: 95vh;
 }
 
 .left {
@@ -113,7 +116,7 @@ footer a {
   }
 
   .right {
-    width: 92.3vw;
+    width: 87vw;
     margin: 0 auto 7vh auto;
     align-self: flex-start;
     height: fit-content;
